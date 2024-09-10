@@ -10,7 +10,7 @@ use App\Controllers\ShapeSorter;
 
 $collection = new ShapeCollection();
 
-for ($i = 0; $i < 5; $i++) {
+for ($i = 0; $i <= 10; $i++) {
     $collection->addShape(ShapeFactory::createRandomShape());
 }
 
